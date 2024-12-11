@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from difusco.co_datasets.msco_graph_dataset import MSCOGraphDataset
+from diffusion.co_datasets.msco_graph_dataset import MSCOGraphDataset
 
 
 dataset = MSCOGraphDataset('D:/Codes/DT4SG/data/msmu-co/4server/4s10u_10000samples_20240604221408.txt')

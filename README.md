@@ -31,7 +31,9 @@ conda activate gdsg
 
 `diffusion/mtfnn_run.py`, executor for baseline MTFNN for multi-server multi-user computation offloading. 
 
-`scripts/`, examples of shell scripts for train and test. (It is recommended to use the python script in `diffusion/tools` to generate shells from scratch and run)
+`scripts/`, examples of shell scripts for train and test. (It is recommended to use the python script in `diffusion/tools` to generate shells from scratch and run).
+
+`results/`, pretrained checkpoints & other results. 
 
 `data/`, dataset generation tools and introductions. 
 
@@ -43,7 +45,7 @@ Please read the shell script generation tool in `diffusion/tools`, set the datas
 
 ## Data & Pretrained Checkpoints
 
-Please download the datasets and pretrained model from here http://ieee-dataport.org/documents/dataset-multi-server-multi-user-computation-offloading. Or you can contact the author directly through GitHub's email information. 
+Please download the datasets and pretrained model from here http://ieee-dataport.org/documents/dataset-multi-server-multi-user-computation-offloading. Due to the large number of results involved in this article, in order to avoid too much data, the `results/ `folder only contains the main DiGNN and GDSG checkpoints. In addition, the data related to the calculation of gradient orthogonality between tasks is also in the `results/` folder, but because the data involved in the model of large-scale problems is too large to be uploaded in the code repository, we only put the results of small models. If you need complete data, models and result files, please consult us by email. 
 
 ## Gradient acquisition process
 
