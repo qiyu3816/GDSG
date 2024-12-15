@@ -1,6 +1,6 @@
 [TOC]
 
-# GDSG: Graph Diffusion-based Solution Generation for Optimization Problems in MEC Networks
+# GDSG: Graph Diffusion-based Solution Generator for Optimization Problems in MEC Networks
 
 ## Setup
 
